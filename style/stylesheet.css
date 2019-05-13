@@ -191,10 +191,17 @@ ol>li
 *        Layout         *
 *                       *
 ************************/
+main
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 section
 {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 section>div
