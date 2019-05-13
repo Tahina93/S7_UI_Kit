@@ -1,0 +1,30 @@
+/************************
+*                       *
+*       Colors          *
+*                       *
+************************/
+
+.primary {color :#441151}
+.secondary {color : #BC80F0}
+.dark {color: #3D3B30}
+.medium-dark {color: #595358}
+.light {color: #D1D0D1}
+.danger { color: #FA8990}
+.warning {color: #FFC57C}
+.success {color: #B3F8B3}
+.info {color: #9FD5FF}
+.bg-primary {background-color :#441151}
+.bg-secondary {background-color : #BC80F0}
+.bg-dark {background-color: #3D3B30}
+.bg-medium-dark {background-color: #595358}
+.bg-light {background-color: #D1D0D1}
+.bg-danger { background-color: #FA8990}
+.bg-warning {background-color: #FFC57C}
+.bg-success {background-color: #B3F8B3}
+.bg-info {background-color: #9FD5FF}
+
+/************************
+*                       *
+*        Fonts          *
+*                       *
+************************/
