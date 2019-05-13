@@ -185,6 +185,36 @@ ol>li
     color: #BC80F0;
 }
 
+/************************
+*                       *
+*         Forms         *
+*                       *
+************************/
+
+form
+{
+    background: #DFC9F2;
+    border: 1px solid #3D3B30;
+    border-radius: 5px;
+    padding: 20px; 
+}
+
+label
+{
+    font-weight: bold;
+}
+
+input
+{
+    border-radius: 5px;
+    height: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    margin: 5px;
+}
+
+
+
 
 /************************
 *                       *

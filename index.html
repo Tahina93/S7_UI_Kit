@@ -119,7 +119,31 @@
             <div>
                 <h2>Formulaires</h2>
                 <form action="#" method="POST">
-                    
+                    <p>
+                        <label for="txt">Label&nbsp;:</label>
+                        <input type="text" id="txt" name="txt" />
+                    </p>
+                    <select name="dropdown">
+                        <optgroup label="Groupe d'option">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                        </optgroup>
+                    </select><br/>
+                    <textarea>Zone de texte</textarea>
+                    <p>
+                        <strong>Choix unique&nbsp;:</strong>
+                        <input type="radio" name="unique" id="unique1" value="1" />
+                        <label for="unique1">Choix 1</label>
+                        <input type="radio" name="unique" id="unique2" value="2" />
+                        <label for="unique2">Choix 2</label>
+                    </p>
+                    <p>
+                        <strong>Choix Multiple&nbsp;</strong>
+                        <input type="checkbox" name="multiple" id="multiple1" value="1" />
+                        <label for="multiple1">Choix 1</label>
+                        <input type="checkbox" name="multiple" id="multiple2" value="2" />
+                        <label for="multiple2">Choix 2</label>
+                    </p>
                 </form>
             </div>
         </main>
