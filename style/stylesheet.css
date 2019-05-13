@@ -325,9 +325,15 @@ textarea
 
 .id-card .card-img-top
 {
-    max-width: 50%;
+    flex: 1;
+    height: initial;
     border-bottom: none;
     border-right: 1px solid #595358;
+}
+
+.id-card .card-body
+{
+    flex:1;
 }
 
 .card-with-overlay
