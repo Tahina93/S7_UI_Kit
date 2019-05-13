@@ -4,8 +4,8 @@
 *                       *
 ************************/
 
-.primary {color :#441151}
-.secondary {color : #BC80F0}
+.primary {color :#BC80F0}
+.secondary {color : #DFC9F2}
 .dark {color: #3D3B30}
 .medium-dark {color: #595358}
 .light {color: #D1D0D1}
@@ -13,8 +13,8 @@
 .warning {color: #FFC57C}
 .success {color: #B3F8B3}
 .info {color: #9FD5FF}
-.bg-primary {background-color :#441151}
-.bg-secondary {background-color : #BC80F0}
+.bg-primary {background-color :#BC80F0}
+.bg-secondary {background-color : #DFC9F2}
 .bg-dark {background-color: #3D3B30}
 .bg-medium-dark {background-color: #595358}
 .bg-light {background-color: #D1D0D1}
@@ -29,7 +29,12 @@
 *                       *
 ************************/
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Bitter', serif;}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Bitter', serif;
+    color: #3D3B30
+}
+
 h1 {font-size: 4rem} 
 h2 {font-size: 2.5rem}
 h3 {font-size: 2rem}
@@ -41,6 +46,7 @@ p, div
 {
     font-family: 'News Cycle', sans-serif;
     font-size: 1.25rem;
+    color: #595358
 }
 
 .lead
@@ -63,6 +69,96 @@ ol>li
     list-style: upper-roman;
 }
 
+
+/************************
+*                       *
+*        Button         *
+*                       *
+************************/
+
+.btn
+{
+    color: #3D3B30;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    min-width: 70px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    box-shadow: 2px 2px 10px #D1D0D1;
+    font-weight: bold;
+}
+
+.outline
+{
+    font-weight: bold;
+    background: inherit;
+    border: 1px solid;
+}
+
+.outline:hover
+{
+    color :#3D3B30;
+}
+
+.outline-primary
+{
+    color :#BC80F0;
+    border-color: #BC80F0;
+}
+
+.outline-primary:hover
+{
+    background: #BC80F0;
+}
+
+.outline-warning
+{
+    color: #FFC57C;
+    border-color: #FFC57C;
+}
+
+.outline-warning:hover
+{
+    background:  #FFC57C;
+}
+
+.outline-danger
+{
+    color: #FA8990;
+    border-color: #FA8990;
+}
+
+.outline-danger:hover
+{
+    background: #FA8990;
+}
+
+.outline-success
+{
+    color: #B3F8B3;
+    border-color: #B3F8B3
+}
+
+.outline-success:hover
+{
+    background: #B3F8B3
+}
+
+.outline-info
+{
+    color: #9FD5FF;
+    border-color: #9FD5FF; 
+}
+
+.outline-info:hover
+{
+    background: #9FD5FF;
+}
 
 /************************
 *                       *
