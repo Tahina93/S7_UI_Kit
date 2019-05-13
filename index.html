@@ -120,31 +120,88 @@
                 <h2>Formulaires</h2>
                 <form action="#" method="POST">
                     <p>
-                        <label for="txt">Label&nbsp;:</label>
-                        <input type="text" id="txt" name="txt" />
+                        <label class="col-25" for="txt">Label&nbsp;:</label>
+                        <input class="col-75" type="text" id="txt" name="txt" />
                     </p>
-                    <select name="dropdown">
-                        <optgroup label="Groupe d'option">
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                        </optgroup>
-                    </select><br/>
-                    <textarea>Zone de texte</textarea>
+                    <div>
+                        <strong>Menu déroulant&nbsp;:</strong><br/>
+                        <select class="full-line" name="dropdown">
+                            <optgroup label="Groupe d'option">
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div>
+                        <strong>Zone de texte :</strong><br/>
+                        <textarea>Zone de texte</textarea>
+                    </div>
                     <p>
-                        <strong>Choix unique&nbsp;:</strong>
+                        <strong>Choix unique&nbsp;:</strong><br/>
                         <input type="radio" name="unique" id="unique1" value="1" />
                         <label for="unique1">Choix 1</label>
                         <input type="radio" name="unique" id="unique2" value="2" />
                         <label for="unique2">Choix 2</label>
                     </p>
                     <p>
-                        <strong>Choix Multiple&nbsp;</strong>
+                        <strong>Choix Multiple&nbsp;</strong><br/>
                         <input type="checkbox" name="multiple" id="multiple1" value="1" />
                         <label for="multiple1">Choix 1</label>
                         <input type="checkbox" name="multiple" id="multiple2" value="2" />
                         <label for="multiple2">Choix 2</label>
                     </p>
+                    <p class="center">
+                        <input type="submit" class="btn bg-primary" />
+                        <input type="reset" class="btn bg-warning" />
+                    </p>
                 </form>
+            </div>
+            <div>
+                <h2>Cartes</h2>
+                <section>
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img  src="..." alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="center">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="center"><a href="#" class="btn bg-primary">Go somewhere</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="center">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="center"><a href="#" class="btn bg-primary">Go somewhere</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img  src="..." alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card id-card">
+                            <div class="card-img-top">
+                                <img  src="..." alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="center">Card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    <div class="card card-with-overlay">
+                        <div class="card-img-top img-back">
+                            <img  src="..." alt="Card image cap">
+                        </div>
+                        <div class="card-body card-overlay">
+                            <h4 class="center">Card title</h4>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
     </body>
