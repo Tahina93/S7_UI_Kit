@@ -29,5 +29,65 @@
 *                       *
 ************************/
 
-.header-font {font-family: 'Bitter', serif;}
-.text-font {font-family: 'News Cycle', sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Bitter', serif;}
+h1 {font-size: 4rem} 
+h2 {font-size: 2.5rem}
+h3 {font-size: 2rem}
+h4 {font-size: 1.5rem}
+h5 {font-size: 1rem}
+h6 {font-size: .75rem}
+
+p, div
+{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.25rem;
+}
+
+.lead
+{
+    font-weight: bold;
+}
+
+blockquote
+{
+    font-style: italic;
+}
+
+ul>li
+{
+    list-style-image: url("img/forknknife.png")
+}
+
+ol>li
+{
+    list-style: upper-roman;
+}
+
+
+/************************
+*                       *
+*        Layout         *
+*                       *
+************************/
+section
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+section>div
+{
+    margin: 20px;
+}
+
+.sample
+{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.center
+{
+    text-align: center;
+}
